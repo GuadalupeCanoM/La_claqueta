@@ -1,0 +1,184 @@
+<!-- Autora: Guadalupe Cano Moyano -->
+
+<!--Elemento raíz-->
+<!DOCTYPE html>
+<!--etiqueta para indicar el lenguaje de mi página web-->
+<html lang="es">
+
+
+<!--Información no visible-->
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <!--El título sirve para buscar en la web-->
+  <title>La Claqueta</title>
+  <!--Información sobre la temática de la web-->
+  <meta name="description" content="peliculas, criticas, cine" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Enlace icono de placeholder fontawesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Script para iconos de fontawesome en línea (en caso de no tener internet no cargaría, se podría importar el archivo svg)-->
+  <script src="https://kit.fontawesome.com/a2b9286c00.js" crossorigin="anonymous"></script>
+  <!-- Logo favicon -->
+  <link rel="icon" href="img/logo.ico">
+  <!--Esta etiqueta enlaza el documento html con el css-->
+  <link rel="stylesheet" href="styles.css" />
+  <!--RSS-->
+  < rel="alternate" type="application/rss+xml" href="feed/canal.rss">Mi canal RSS<img src = width ="36px" height ="14px" alt="logo rss" class="rss" ></a>
+  <!--ATOM-->
+  <a rel="alternate" type="application/atom+xml" href="feed/canal.atom">Mi canal Atom</a>
+</head>
+
+<!--Cuerpo:información que se visualiza en el navegador-->
+
+<body>
+  <!--Encabezado de la sección-->
+  <header id="header">
+    <img src="img/logo.png" alt="logo" />
+
+    <!--Título del encabezado-->
+    <h1>La Claqueta</h1>
+  </header>
+
+  <!--------------------------------------Navigation--------------------------------->
+  <nav class="navigation">
+    <!--Lista desordenada-->
+    <ul>
+      <!-- Inserto las clases de los iconos importadas de fontawesome -->
+      <li> <i class="fas fa-home icon"></i><a href="#Inicio">Inicio</a></li>
+      <li><i class="far fa-address-card icon"></i><a href="#Quiénes Somos">Quiénes somos</a></li>
+      <li><i class="far fa-envelope icon"></i><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <!--------------------------------------Articles--------------------------------->
+  <!--Primera Película-->
+  <section>
+    <article class="film">
+      <h2>El experimento</h2>
+      <img src="img/elexperimento.jpg" alt="poster" />
+      <div class="body-film">
+        <!-- Creación de tabla -->
+        <table class="tabla">
+          <tr>
+            <th>Nombre</th>
+            <th>El experimento</th>
+          </tr>
+          <tr>
+            <td>Director</td>
+            <td>
+              Paul Scheuring</td>
+          </tr>
+          <tr>
+            <td>Año</td>
+            <td>2001</td>
+          </tr>
+          <tr>
+            <td>Actores</td>
+            <td>
+              <ul>
+                <li>Adrien Brody</li>
+                <li>Forest Whitaker</li>
+                <li>Maggie Grace</li>
+                <li>Clifton Collins Jr.</li>
+                <li>Cam Gigandet</li>
+                <li>Fisher Stevens</li>
+                <li>Travis Fimmel</li>
+                <li>Ethan Cohn</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td>Productora:</td>
+            <td>Paramount Pictures</td>
+          </tr>
+        </table>
+
+        <div class="critica">
+          <p>
+          <p>Crítica sobre la película:</p>
+          <br />
+          El experimento es una película basada en hechos reales, de un experimento que se realizó en los años 70 en la
+          Universidad de Stanford. Los psicólogos en el sótano de la Universidad recrearon el ambiente de una cárcel
+          asignándole a cada uno de los participantes que se presentaron voluntariamente un rol: guardia o preso. De
+          esta manera querían simular un contexto lo más controlado posible para estudiar las relaciones y
+          comportamientos humanos dentro de este entorno.
+          <br />
+          Su director ha sabido exponer esas ideas preconcebidas bajo una capa de cine de intriga y algo de cine
+          fantástico, dotando al filme de un fuerte suspense de modo que el público sigue con interés creciente el fluir
+          de la historia, dramática y exasperante por su violencia. Violencia que se hace muy ingrata pero nada
+          complaciente con la morbosidad de algunas de sus escenas.
+          <p class="valoracion">Valoración: 7,9/10</p>
+          </p>
+        </div>
+      </div>
+    </article>
+
+    <!--Segunda película-->
+    <article class="film">
+      <h2>La Naranja mecánica</h2>
+      <img src="img/naranajamecanica2.jpg" alt="poster" />
+      <div class="body-film">
+        <table>
+          <tr>
+            <th>Nombre</th>
+            <th>La naranja mecánica</th>
+          </tr>
+          <tr>
+            <td>Director</td>
+            <td>Stanley Kubrick</td>
+          </tr>
+          <tr>
+            <td>Año</td>
+            <td>1971</td>
+          </tr>
+          <tr>
+            <td>Actores</td>
+            <td>
+              <ul>
+                <li>Malcolm McDowell</li>
+                <li>Patrick Magee</li>
+                <li>Adrienne Corri</li>
+                <li>Miriam Karlin</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td>Productora:</td>
+            <td>Warner Bros</td>
+          </tr>
+        </table>
+
+        <div class="critica">
+          <p>
+          <p>Crítica sobre la película:</p>
+          <br />
+          La naranja mecánica narra la historia de Alex, un jóven con dos pasiones, la agresividad y Bethoveen. Junto
+          con su pandilla, descargan sus instintos más violentos aterrorizando a la sociedad. Alex termina en la cárcel
+          y se somete de forma voluntaria a un experimento de reeducación, el cual pretende anular sus conductas
+          antosociales y agresivas.
+          <br />
+          Es una película que siempre debe de estar vigente en la historia del séptimo arte, pues a mi parecer, Stanley
+          Kubrick ha creado una obra de arte perfecta, muy revolucionaria para la época en la que se filmó, sin
+          olvidarnos de la banda sonora, que es impecable.
+          <p class="valoracion">Valoración: 8,9/10</p>
+          </p>
+        </div>
+      </div>
+    </article>
+
+    <!------------------------------------------Footer----------------------------------->
+    <footer class="footer">
+      <form>
+
+        <input type="submit" value=" ¡Subscríbete a nuestra Newsletter!" />
+        <input type="text" class="icono-placeholder" placeholder=" Email address" required />
+      </form>
+      <div class="autores">&#169; Ana y Pedro</div>
+    </footer>
+</body>
+
+</html>

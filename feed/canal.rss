@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" >
+
+    <channel>
+        <title>Cine la Claqueta</title>
+        <link>https://www.cinelaclaqueta.es</link>
+        <description>Página sobre películas</description>
+        <category>cines/estrenos/cartelera</category>
+        <language>es-ES</language>
+        <managingEditor>guadalupe.cano@hotmail.com (Guadalupe Cano)</managingEditor>
+        <pubDate>Sat, 18 Dec 2021 10:30:00 GMT</pubDate>
+                                    <!--Entrada sobre La claqueta-->
+        <item>
+            <title>Cine la Claqueta crea web con servicio de sindicación de contenidos</title>
+            <link>https://www.cicelaclaqueta.es/noticias/nuevo_servicio_de_sindicacion</link>
+            <guid>https://www.cicelaclaqueta.es/noticias/nuevo_servicio_de_sindicacion</guid>
+            <description>El cine La Claqueta añade a su web el servicio de sindicación de contenidos con los estándares RSS y Atom</description>
+            <category>cines</category>
+            <pubDate>Sat, 18 Dec 2021 10:30:00 GMT</pubDate>
+        </item> 
+                                          <!--1º noticia-->
+        <item>
+            <title>Las 46 mejores películas de navidad en netflix, ordenadas</title>
+            <guid isPermaLink="true">https://www.fotogramas.es/noticias-cine/g25376309/netflix-mejores-peliculas-navidad/</guid>
+            <description>Recomendaciones de películas para ver en navidad</description>
+            <author>Juan.arcones@gmail.com (Juan Arcones)</author>
+            <enclosure url="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/arthur-christmas-1640711315.jpg" length="138165" type="image/jpg" />
+            <pubDate>Tue, 28 Dec 2021 10:30:00 GMT</pubDate>
+        </item>
+                                         <!--2º noticia-->
+        <item>
+            <title>Películas españolas navideñas</title>
+            <guid isPermaLink="true">https://www.actoresactricesrevista.com/peliculas-espanolas-navidenas</guid>
+            <description>Películas españolas para ver en navidad</description>
+            <author>unionactores@gmail.com (Unión de actores y actrices)</author>
+            <enclosure url="https://static.wixstatic.com/media/44a1a8_be09d32ef0564a0ebef17c5f9c687f76~mv2.jpg/v1/fill/w_793,h_447,al_c,q_80,usm_0.66_1.00_0.01/Cine_espanol-Cine_de_animacion-Premios_O.webp" length="10000" type="image/jpg" />
+            <pubDate>Mon, 21 Dec 2020 10:30:00 GMT</pubDate>
+        </item>
+    </channel>
+</rss>
